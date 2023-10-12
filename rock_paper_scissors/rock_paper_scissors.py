@@ -35,3 +35,5 @@ print(rps[player_choice])
 computer_choice = random.randint(0, 2)
 print("Computer chose: ")
 print(rps[computer_choice])
+
+message = ["You lose", "You win!", "It's a draw"]
