@@ -37,3 +37,25 @@ print("Computer chose: ")
 print(rps[computer_choice])
 
 message = ["You lose", "You win!", "It's a draw"]
+
+if player_choice == 0:
+    if computer_choice == 0:
+        print(message[2])
+    elif computer_choice == 1:
+        print(message[0])
+    else:
+        print(message[1])
+elif player_choice == 1:
+    if computer_choice == 0:
+        print(message[1])
+    elif computer_choice == 1:
+        print(message[2])
+    else:
+        print(message[0])
+else:
+    if computer_choice == 0:
+        print(message[0])
+    elif computer_choice == 1:
+        print(message[1])
+    else:
+        print(message[2])
